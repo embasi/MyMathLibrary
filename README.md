@@ -13,7 +13,7 @@ Ex.:
 Matrix a() - default.
 Matrix a(2, 3, {5,2,6,1,8,3}); - matrix with dimension 2x3 filled by elements of the vector.
 
-Important: vectors are matrices with 1xN of Nx1 dimensions.
+**Important**: vectors are matrices with 1xN of Nx1 dimensions.
 Also, there some subclasses:\
 Identity, Symmetric, Triangular (Upper and Lower), Diagonal. You can create it.
 
@@ -29,11 +29,11 @@ Also, you can write you matrix to text file using >>
 In some situations you will need in binary files. And you can do it! There are methods for saving and loading matrices in binary mode.
 To do it, please, use methods: A.save_file("filename"); and A.load_file("filename") respectively.
 
-Other methods:
+*Other methods*:
 Hadamard() - make a Hadamard product and put the result to left object.
 Transpose() - make transposing of your matrix. To save the result you should create a new Matrix object. Ex.: Matrix a = b.Transpose();
 
-Functions to work with matrices:
+**Functions to work with matrices**:
 RowReduce - find linearly independent vectors (columns) of your matrix.
 scalar_product - works only with vectors (not necessary 1xN or Nx1 you entered).
 trace - find the trace of your matrix.
@@ -58,5 +58,5 @@ Have a nice day and get more enjoyment applying this program!
 For questions and suggestions you can write to my e-mail:
 arty0299study@gmail.com
 
-Yours,
+Yours,\
 Artyom
