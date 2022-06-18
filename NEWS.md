@@ -1,1 +1,1 @@
-Clear file for news.
+**Clear file for news.
