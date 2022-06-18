@@ -14,7 +14,7 @@ Matrix a() - default.
 Matrix a(2, 3, {5,2,6,1,8,3}); - matrix with dimension 2x3 filled by elements of the vector.
 
 Important: vectors are matrices with 1xN of Nx1 dimensions.
-Also, there some subclasses...
+Also, there some subclasses:\
 Identity, Symmetric, Triangular (Upper and Lower), Diagonal. You can create it.
 
 Operations allowed to work with matrices:
