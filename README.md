@@ -19,7 +19,7 @@ Identity, Symmetric, Triangular (Upper and Lower), Diagonal. You can create it.
 Operations allowed to work with matrices:
 1) addition: operator "+";
 2) subtraction: operator "-";
-3) multiplication: operator "*". At this case you should create third Matrix object to put result there.
+3) multiplication: operator "*". At this case you should create third Matrix object to put result there.\
 Ex.: Matrix c = a * b; - at another way you'll get Error!
 
 Besides pulling matrices from keyboard you also can get it from "txt"-file. For this you should write Matrix A; A << filename;\
@@ -30,7 +30,7 @@ To do it, please, use methods: A.save_file("filename"); and A.load_file("filenam
 
 *Other methods*:
 Hadamard() - make a Hadamard product and put the result to left object.\
-Transpose() - make transposing of your matrix. To save the result you should create a new Matrix object. Ex.: Matrix a = b.Transpose();\
+Transpose() - make transposing of your matrix. To save the result you should create a new Matrix object. Ex.: Matrix a = b.Transpose();
 
 **Functions to work with matrices**:\
 RowReduce - find linearly independent vectors (columns) of your matrix.\
